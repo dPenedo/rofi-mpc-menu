@@ -6,11 +6,11 @@ Originally inspired by [rofi-mpc](https://github.com/Marco98/rofi-mpc), this ver
 
 ## Features
 
-- 󰐎 Play / Pause
-- 󰒭 Next
-- 󰒮 Previous
--  Toggle Random Mode
--  Select Source (Local or Playlists)
+- Play / Pause
+- Next
+- Previous
+- Toggle Random Mode
+- Select Source (Local or Playlists)
 
 ## Requirements
 
