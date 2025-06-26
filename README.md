@@ -1,7 +1,5 @@
 # Rofi MPC Menu
 
-# Rofi MPC Menu
-
 A simple menu for controlling MPD via `mpc`, using `rofi` as the interface and Nerd Font icons for visual clarity.
 
 Originally inspired by [rofi-mpc](https://github.com/Marco98/rofi-mpc), this version evolved into something different, using a different structure and some new behaviors, like playlist handling and icon display.
@@ -24,24 +22,30 @@ Originally inspired by [rofi-mpc](https://github.com/Marco98/rofi-mpc), this ver
 
 ## Installation
 
-1. Make the script executable:
+Make the script executable:
 
-   ```bash
-   chmod +x rofi_mpc_menu.py
+```sh
+chmod +x rofi_mpc_menu.py
+```
 
-    (Optional) Move it to a directory in your PATH:
-   ```
+(Optional) Move it to a directory in your PATH:
 
+```sh
 mv rofi_mpc_menu.py ~/.local/bin/rofi_mpc_menu
+```
 
 Run it from a terminal, a keybinding, or via Rofi itself:
 
-    rofi_mpc_menu
+```sh
+rofi_mpc_menu
+```
 
-Font configuration
+### Font configuration
 
 To display icons correctly, configure Rofi to use a Nerd Font, for example:
 
+```sh
 configuration {
-font: "JetBrainsMono Nerd Font 12";
+    font: "JetBrainsMono Nerd Font 12";
 }
+```
